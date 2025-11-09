@@ -1,23 +1,19 @@
-# 🌐 Portfólio Base - HTML, CSS e JS
+# 🌐 Acesse o Portfólio e Componentes
 
-Este repositório contém o **projeto base** do meu portfólio pessoal e empresarial, totalmente feito com **HTML, CSS e JavaScript puro**.  
-Ele foi criado para ser **estático e hospedado no GitHub Pages**, servindo como modelo para sites rápidos, responsivos e reutilizáveis.
+### 🔹 Site principal
+<p><a href="https://truevermelho.github.io/BS-person/bs-person/index.html" target="_blank" rel="noopener noreferrer">Acessar o portfólio completo</a></p>
 
----
-
-## 🧱 Estrutura do Projeto
-
-```bash
-bs-person/
+### 🔹 Estrutura do projeto
+<pre><code>bs-person/
 │
-├── css/                     # Estilos principais
-│   ├── style-geral.css      # Estilo global do site
+├── css/
+│   ├── style-geral.css
 │
-├── js/                      # Scripts e funções JS (caso usados futuramente)
+├── js/
 │
-├── img/                     # Imagens do site
+├── img/
 │
-├── utils/                   # Componentes reutilizáveis
+├── utils/
 │   ├── body/
 │   │   ├── footer.html
 │   │   ├── header.html
@@ -33,37 +29,26 @@ bs-person/
 │       ├── mapa.html
 │       ├── youtube.html
 │       └── botao-media-print.html
-│
-├── style/
-│   └── index-geral.html     # Arquivo principal de estilo
-│
-├── index.html               # Página principal do site
-│
-└── README.md                # Este arquivo
-```
----
+</code></pre>
 
-### 🧱 Body Components
+### 🔹 Acesse diretamente os componentes
 
-| Componente          | Link                                                                                                     |
-| ------------------- | -------------------------------------------------------------------------------------------------------- |
-| 🧭 Navegação        | [nav.html](https://truevermelho.github.io/BS-person/bs-person/utils/body/nav.html)                       |
-| 🏠 Home - Empresa   | [home-empresa.html](https://truevermelho.github.io/BS-person/bs-person/utils/body/home-empresa.html)     |
-| 💼 Home - Portfólio | [home-portfolio.html](https://truevermelho.github.io/BS-person/bs-person/utils/body/home-portfolio.html) |
-| 👤 Sobre            | [sobre.html](https://truevermelho.github.io/BS-person/bs-person/utils/body/sobre.html)                   |
-| 🧩 Cabeçalho        | [header.html](https://truevermelho.github.io/BS-person/bs-person/utils/body/header.html)                 |
-| 🔻 Rodapé           | [footer.html](https://truevermelho.github.io/BS-person/bs-person/utils/body/footer.html)                 |
+#### 🧩 Body
+<ul>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/body/footer.html" target="_blank" rel="noopener noreferrer">Footer</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/body/header.html" target="_blank" rel="noopener noreferrer">Header</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/body/home-empresa.html" target="_blank" rel="noopener noreferrer">Home — Empresa</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/body/home-portfolio.html" target="_blank" rel="noopener noreferrer">Home — Portfólio</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/body/nav.html" target="_blank" rel="noopener noreferrer">Nav</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/body/sobre.html" target="_blank" rel="noopener noreferrer">Sobre</a></li>
+</ul>
 
----
-
-### ⚙️ Services Components
-
-| Componente                   | Link                                                                                                               |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| 🪪 Cards de Serviços         | [cards.html](https://truevermelho.github.io/BS-person/bs-person/utils/services/cards.html)                         |
-| ✉️ Contato                   | [contato.html](https://truevermelho.github.io/BS-person/bs-person/utils/services/contato.html)                     |
-| 📧 Template de E-mail        | [email.html](https://truevermelho.github.io/BS-person/bs-person/utils/services/email.html)                         |
-| 🗺️ Mapa                     | [mapa.html](https://truevermelho.github.io/BS-person/bs-person/utils/services/mapa.html)                           |
-| 🎥 YouTube                   | [youtube.html](https://truevermelho.github.io/BS-person/bs-person/utils/services/youtube.html)                     |
-| 🖨️ Botão de Mídia/Impressão | [botao-media-print.html](https://truevermelho.github.io/BS-person/bs-person/utils/services/botao-media-print.html) |
-
+#### 🧰 Services
+<ul>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/services/cards.html" target="_blank" rel="noopener noreferrer">Cards</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/services/contato.html" target="_blank" rel="noopener noreferrer">Contato</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/services/email.html" target="_blank" rel="noopener noreferrer">Email</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/services/mapa.html" target="_blank" rel="noopener noreferrer">Mapa</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/services/youtube.html" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+  <li><a href="https://truevermelho.github.io/BS-person/utils/services/botao-media-print.html" target="_blank" rel="noopener noreferrer">Botão de Mídia/Impressão</a></li>
+</ul>
