@@ -3,39 +3,33 @@
 ### 🔹 Site principal
 <p><a href="https://truevermelho.github.io/basico-person/bs-person/index.html" target="_blank" rel="noopener noreferrer">Acessar o portfólio completo</a></p>
 
-### 🔹 Estrutura do projeto
-<pre><code>bs-person/
-│
-├── css/
-│   ├── style-geral.css
-│
-├── js/
-│
-├── img/
+### 🔹 Estrutura das páginas principais
+<pre><code>
+├── bs-person/index.html
 │
 ├── utils/
 │   ├── body/
-│   │   ├── footer.html
-│   │   ├── header.html
-│   │   ├── home-empresa.html
-│   │   ├── home-portfolio.html
-│   │   ├── nav.html
-│   │   └── sobre.html
+│   │   ├── navegador/
+│   │   ├── header/
+│   │   ├── home/
+│   │   ├── sobre/
+│   │   ├── footer/
+│   │   ├── dashboard/
 │   │
-│   └── services/
-│       ├── cards.html
-│       ├── contato.html
-│       ├── email.html
-│       ├── mapa.html
-│       ├── youtube.html
-│       └── botao-media-print.html
+│   ├── services/
+│   │   ├── cards.html
+│   │   ├── contato.html
+│   │   ├── email.html
+│   │   ├── mapa.html
+│   │   ├── youtube.html
+│   │   ├── botao-media-print.html
 </code></pre>
 
 ### 🔹 Acesse diretamente os componentes
 
-#### 🧩 Body
+#### 🧩 Arquivos Body
 <ul>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/body/footer.html" target="_blank" rel="noopener noreferrer">Footer</a></li>
+  <li><a href="https://truevermelho.github.io/basico-person/utils/body/footer/" target="_blank" rel="noopener noreferrer">Footer</a></li>
   <li><a href="https://truevermelho.github.io/basico-person/utils/body/header.html" target="_blank" rel="noopener noreferrer">Header</a></li>
   <li><a href="https://truevermelho.github.io/basico-person/utils/body/home-empresa.html" target="_blank" rel="noopener noreferrer">Home — Empresa</a></li>
   <li><a href="https://truevermelho.github.io/basico-person/utils/body/home-portfolio.html" target="_blank" rel="noopener noreferrer">Home — Portfólio</a></li>
@@ -43,7 +37,7 @@
   <li><a href="https://truevermelho.github.io/basico-person/utils/body/sobre.html" target="_blank" rel="noopener noreferrer">Sobre</a></li>
 </ul>
 
-#### 🧰 Services
+#### 🧰 Arquivos Services
 <ul>
   <li><a href="https://truevermelho.github.io/basico-person/utils/services/cards.html" target="_blank" rel="noopener noreferrer">Cards</a></li>
   <li><a href="https://truevermelho.github.io/basico-person/utils/services/contato.html" target="_blank" rel="noopener noreferrer">Contato</a></li>

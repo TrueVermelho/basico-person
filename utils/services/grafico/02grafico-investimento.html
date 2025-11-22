@@ -1,0 +1,107 @@
+<!-- ===================== SECTION - GRAFICO DE INVESTIMENTO ===================== -->
+<section class="investment-section">
+  <div class="investment-card">
+    <h2>Desempenho do Investimento</h2>
+    <canvas id="investmentChart"></canvas>
+  </div>
+</section>
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  const investCtx = document.getElementById('investmentChart');
+
+  new Chart(investCtx, {
+    type: 'line',
+    data: {
+      labels: [
+        'Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul',
+        'Ago', 'Set', 'Out', 'Nov', 'Dez'
+      ],
+      datasets: [{
+        label: 'Valor da Carteira (R$)',
+        data: [
+          1200, 1500, 1800, 1600, 2100, 2400,
+          3000, 2800, 3500, 3800, 4200, 4600
+        ],
+        borderColor: '#4CAF50',
+        backgroundColor: 'rgba(76, 175, 80, 0.18)',
+        fill: true,
+        borderWidth: 3,
+        pointRadius: 4,
+        pointBackgroundColor: '#4CAF50',
+        tension: 0.33,
+      }]
+    },
+
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: "#111827",
+          titleColor: "#fff",
+          bodyColor: "#fff",
+          padding: 10,
+          displayColors: false,
+        }
+      },
+      scales: {
+        x: {
+          grid: { display: false },
+          ticks: { color: "#555", font: { weight: "600" } }
+        },
+        y: {
+          ticks: {
+            color: "#555",
+            callback: value => "R$ " + value
+          },
+          grid: {
+            color: "rgba(0,0,0,0.08)",
+            borderDash: [4, 4]
+          },
+        }
+      }
+    }
+  });
+</script>
+
+<style>
+/* ===================== ESTILO DO GRAFICO DE INVESTIMENTO ===================== */
+
+.investment-section {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.investment-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  height: 420px;
+}
+
+.investment-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #111;
+  font-weight: 600;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .investment-card {
+    height: 320px;
+    padding: 16px;
+  }
+
+  .investment-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+}
+</style>
