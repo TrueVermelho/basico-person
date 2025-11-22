@@ -1,265 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Catálogo de Componentes - BS Person</title>
-
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
-body {
-  background: #0d1117; /* Fundo escuro */
-  color: #fff;         /* Texto branco */
-  padding: 40px;
-}
-
-
-/* Título principal */
-h1 {
-  text-align: center;
-  margin-bottom: 35px;
-  font-size: 2.2rem;
-  color: #fff;
-}
-
-/* Categoria */
-.section-title {
-  margin: 40px 0 15px;
-  font-size: 1.6rem;
-  color: #fff;
-  border-left: 5px solid #4CAF50;
-  padding-left: 12px;
-}
-
-/* Grid dos cards */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-}
-
-/* Card geral */
-.card {
-  background: #161b22; /* Dark elegante */
-  padding: 18px;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
-  transition: 0.25s;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #30363d; /* borda leve */
-  display: block;
-}
-
-/* Hover */
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.65);
-  border-color: #4CAF50;
-}
-
-/* ======== CARD BASE (PRATA) ======== */
-.card {
-  background: linear-gradient(135deg, #2c2f36, #3b3f47, #1d1f24);
-  border-radius: 18px;
-  padding: 18px;
-  text-decoration: none;
-  color: #e5e5e5;
-  position: relative;
-  overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.08);
-  box-shadow:
-    0 0 10px rgba(0,0,0,0.4),
-    0 8px 20px rgba(0,0,0,0.55);
-  transition: 0.3s ease;
-}
-
-/* brilho metálico prata */
-.card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -60%;
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255,255,255,0.12),
-    transparent
-  );
-  transform: skewX(-20deg);
-  transition: 0.5s;
-}
-
-.card:hover::before {
-  left: 110%;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow:
-    0 0 15px rgba(255,255,255,0.06),
-    0 12px 28px rgba(0,0,0,0.7);
-}
-
-.card h3 {
-  margin-bottom: 8px;
-  font-size: 1.25rem;
-  color: #ffffff;
-}
-
-.card p {
-  color: #cfd6e1;
-  font-size: 0.95rem;
-}
-
-
-/* ======== CARD PRINCIPAL — DOURADO ======== */
-.card.principal {
-  background: linear-gradient(135deg, #5a4300, #b89402, #473600);
-  border-radius: 20px;
-  padding: 22px;
-  color: #fff;
-  text-decoration: none;
-  position: relative;
-  overflow: hidden;
-  border: 1px solid rgba(255,215,0,0.4);
-  box-shadow:
-    0 0 12px rgba(255,215,0,0.25),
-    0 8px 22px rgba(0,0,0,0.6);
-  transition: 0.3s ease;
-}
-
-/* brilho dourado */
-.card.principal::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -60%;
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255,215,0,0.25),
-    transparent
-  );
-  transform: skewX(-20deg);
-  transition: 0.5s;
-}
-
-.card.principal:hover::before {
-  left: 110%;
-}
-
-.card.principal:hover {
-  transform: translateY(-4px);
-  box-shadow:
-    0 0 20px rgba(255,215,0,0.3),
-    0 14px 30px rgba(0,0,0,0.75);
-}
-
-.card.principal h3 {
-  font-size: 1.35rem;
-  margin-bottom: 8px;
-  letter-spacing: 0.5px;
-  font-weight: 600;
-}
-
-.card.principal p {
-  font-size: 1rem;
-  color: #fff6c8;
-  letter-spacing: 0.4px;
-}
-
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Componentes - BS Person</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+<!-- ==================== BODY / CABEÇALHO ==================== -->
+<section class="cabecalho">
+  <h1>Catálogo de Componentes</h1>
 
-<h1>Catálogo de Componentes</h1>
-
-<a class="card principal" href="https://truevermelho.github.io/basico-person/bs-person/index.html" target="_blank">
-    <h3>Navegador - bs-person</h3>
-    <p>Portfólio do basico-person de como seria o basico</p>
-</a>
+  <a class="card principal" href="https://truevermelho.github.io/basico-person/bs-person/index.html" target="_blank">
+      <h3>Navegador - bs-person</h3>
+      <p>Portfólio do basico-person de como seria o basico</p>
+  </a>
+</section>
 
 <!-- ==================== BODY / NAVEGAÇÃO ==================== -->
-<h2 class="section-title">Seções do Corpo</h2>
-<div class="grid">
+<section class="body">
+  <h2 class="section-title">Seções do Corpo</h2>
+  <div class="grid">
 
-  <a class="card" href="../utils/body/navegador/" target="_blank">
-    <h3>Navegador</h3>
-    <p>Menus e barras de navegação para o topo do site.</p>
-  </a>
+    <a class="card" href="../utils/body/navegador/" target="_blank">
+      <h3>Navegador</h3>
+      <p>Menus e barras de navegação para o topo do site.</p>
+    </a>
 
-  <a class="card" href="../utils/body/header/" target="_blank">
-    <h3>Header</h3>
-    <p>Seção inicial com título, chamada e visual profissional.</p>
-  </a>
+    <a class="card" href="../utils/body/header/" target="_blank">
+      <h3>Header</h3>
+      <p>Seção inicial com título, chamada e visual profissional.</p>
+    </a>
 
-  <a class="card" href="../utils/body/home/" target="_blank">
-    <h3>Home</h3>
-    <p>Hero principal com imagem de fundo e botão de ação.</p>
-  </a>
+    <a class="card" href="../utils/body/home/" target="_blank">
+      <h3>Home</h3>
+      <p>Hero principal com imagem de fundo e botão de ação.</p>
+    </a>
 
-  <a class="card" href="../utils/body/sobre/" target="_blank">
-    <h3>Sobre</h3>
-    <p>Seção explicando missão, valores e história do cliente.</p>
-  </a>
+    <a class="card" href="../utils/body/sobre/" target="_blank">
+      <h3>Sobre</h3>
+      <p>Seção explicando missão, valores e história do cliente.</p>
+    </a>
 
-  <a class="card" href="../utils/body/footer/" target="_blank">
-    <h3>Footer</h3>
-    <p>Rodapés modernos com links, direitos autorais e redes.</p>
-  </a>
+    <a class="card" href="../utils/body/footer/" target="_blank">
+      <h3>Footer</h3>
+      <p>Rodapés modernos com links, direitos autorais e redes.</p>
+    </a>
 
-  <a class="card" href="../utils/body/dashboard/" target="_blank">
-    <h3>Dashboard</h3>
-    <p>Painel administrativo simples e funcional para o cliente.</p>
-  </a>
-</div>
+    <a class="card" href="../utils/body/dashboard/" target="_blank">
+      <h3>Dashboard</h3>
+      <p>Painel administrativo simples e funcional para o cliente.</p>
+    </a>
+  </div>
+</section>
 
-<!-- ==================== SERVIÇOS ==================== -->
-<h2 class="section-title">Serviços Extras</h2>
-<div class="grid">
+  <!-- ==================== SERVIÇOS ==================== -->
+<section class="servicos">
+  <h2 class="section-title">Serviços Extras</h2>
+  <div class="grid">
 
-  <a class="card" href="../utils/services/cards.html" target="_blank">
-    <h3>Cards</h3>
-    <p>Cards de serviços, produtos ou diferenciais.</p>
-  </a>
+    <a class="card" href="../utils/services/cards.html" target="_blank">
+      <h3>Cards</h3>
+      <p>Cards de serviços, produtos ou diferenciais.</p>
+    </a>
 
-  <a class="card" href="../utils/services/contato.html" target="_blank">
-    <h3>Formulário de Contato</h3>
-    <p>Formulários modernos conectados ao backend ou e-mail.</p>
-  </a>
+    <a class="card" href="../utils/services/contato.html" target="_blank">
+      <h3>Formulário de Contato</h3>
+      <p>Formulários modernos conectados ao backend ou e-mail.</p>
+    </a>
 
-  <a class="card" href="../utils/services/email.html" target="_blank">
-    <h3>Integração de E-mail</h3>
-    <p>Templates e estruturas de envio automático.</p>
-  </a>
+    <a class="card" href="../utils/services/email.html" target="_blank">
+      <h3>Integração de E-mail</h3>
+      <p>Templates e estruturas de envio automático.</p>
+    </a>
 
-  <a class="card" href="../utils/services/mapa.html" target="_blank">
-    <h3>Mapa</h3>
-    <p>Mapa institucional Google Maps embed ou API.</p>
-  </a>
+    <a class="card" href="../utils/services/mapa.html" target="_blank">
+      <h3>Mapa</h3>
+      <p>Mapa institucional Google Maps embed ou API.</p>
+    </a>
 
-  <a class="card" href="../utils/services/youtube.html" target="_blank">
-    <h3>Youtube</h3>
-    <p>Integração de vídeos e players personalizados.</p>
-  </a>
+    <a class="card" href="../utils/services/youtube.html" target="_blank">
+      <h3>Youtube</h3>
+      <p>Integração de vídeos e players personalizados.</p>
+    </a>
 
-  <a class="card" href="../utils/services/botao-media-print.html" target="_blank">
-    <h3>Botão de Mídia / Print</h3>
-    <p>Botões para compartilhar ou gerar imagens de seções.</p>
-  </a>
+    <a class="card" href="../utils/services/botao-media-print.html" target="_blank">
+      <h3>Botão de Mídia / Print</h3>
+      <p>Botões para compartilhar ou gerar imagens de seções.</p>
+    </a>
 
-</div>
+  </div>
+</section>
 
 </body>
 </html>
