@@ -44,46 +44,151 @@ h1 {
   gap: 20px;
 }
 
-/* Card */
+/* Card geral */
 .card {
-  background: #161b22;
+  background: #161b22; /* Dark elegante */
   padding: 18px;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.5);
   transition: 0.25s;
   text-decoration: none;
   color: #fff;
+  border: 1px solid #30363d; /* borda leve */
+  display: block;
+}
+
+/* Hover */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.65);
+  border-color: #4CAF50;
+}
+
+/* ======== CARD BASE (PRATA) ======== */
+.card {
+  background: linear-gradient(135deg, #2c2f36, #3b3f47, #1d1f24);
+  border-radius: 18px;
+  padding: 18px;
+  text-decoration: none;
+  color: #e5e5e5;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow:
+    0 0 10px rgba(0,0,0,0.4),
+    0 8px 20px rgba(0,0,0,0.55);
+  transition: 0.3s ease;
+}
+
+/* brilho metálico prata */
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.12),
+    transparent
+  );
+  transform: skewX(-20deg);
+  transition: 0.5s;
+}
+
+.card:hover::before {
+  left: 110%;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.65);
+  box-shadow:
+    0 0 15px rgba(255,255,255,0.06),
+    0 12px 28px rgba(0,0,0,0.7);
 }
 
 .card h3 {
   margin-bottom: 8px;
   font-size: 1.25rem;
+  color: #ffffff;
 }
 
 .card p {
-  color: #555;
+  color: #cfd6e1;
   font-size: 0.95rem;
 }
 
-/* Responsividade */
-@media (max-width: 500px) {
-  body {
-    padding: 20px;
-  }
-  h1 {
-    font-size: 1.7rem;
-  }
+
+/* ======== CARD PRINCIPAL — DOURADO ======== */
+.card.principal {
+  background: linear-gradient(135deg, #5a4300, #b89402, #473600);
+  border-radius: 20px;
+  padding: 22px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255,215,0,0.4);
+  box-shadow:
+    0 0 12px rgba(255,215,0,0.25),
+    0 8px 22px rgba(0,0,0,0.6);
+  transition: 0.3s ease;
 }
+
+/* brilho dourado */
+.card.principal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,215,0,0.25),
+    transparent
+  );
+  transform: skewX(-20deg);
+  transition: 0.5s;
+}
+
+.card.principal:hover::before {
+  left: 110%;
+}
+
+.card.principal:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 0 20px rgba(255,215,0,0.3),
+    0 14px 30px rgba(0,0,0,0.75);
+}
+
+.card.principal h3 {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.card.principal p {
+  font-size: 1rem;
+  color: #fff6c8;
+  letter-spacing: 0.4px;
+}
+
 </style>
 </head>
 <body>
 
 <h1>Catálogo de Componentes</h1>
+
+<a class="card principal" href="https://truevermelho.github.io/basico-person/bs-person/index.html" target="_blank">
+    <h3>Navegador - bs-person</h3>
+    <p>Portfólio do basico-person de como seria o basico</p>
+</a>
 
 <!-- ==================== BODY / NAVEGAÇÃO ==================== -->
 <h2 class="section-title">Seções do Corpo</h2>
