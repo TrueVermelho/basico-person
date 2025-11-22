@@ -29,20 +29,21 @@
 
 #### 🧩 Arquivos Body
 <ul>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/body/footer/" target="_blank" rel="noopener noreferrer">Footer</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/body/header.html" target="_blank" rel="noopener noreferrer">Header</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/body/home-empresa.html" target="_blank" rel="noopener noreferrer">Home — Empresa</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/body/home-portfolio.html" target="_blank" rel="noopener noreferrer">Home — Portfólio</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/body/nav.html" target="_blank" rel="noopener noreferrer">Nav</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/body/sobre.html" target="_blank" rel="noopener noreferrer">Sobre</a></li>
+  <li><a href="./utils/body/navegador/" target="_blank" rel="noopener noreferrer">Navegador</a></li>
+  <li><a href="./utils/body/header/" target="_blank" rel="noopener noreferrer">Header</a></li>
+  <li><a href="./utils/body/home/" target="_blank" rel="noopener noreferrer">Home</a></li>
+  <li><a href="./utils/body/sobre/" target="_blank" rel="noopener noreferrer">Sobre</a></li>
+  <li><a href="./utils/body/footer/" target="_blank" rel="noopener noreferrer">Footer</a></li>
+  <li><a href="./utils/body/dashboard/" target="_blank" rel="noopener noreferrer">Dashboard</a></li>
 </ul>
 
 #### 🧰 Arquivos Services
 <ul>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/services/cards.html" target="_blank" rel="noopener noreferrer">Cards</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/services/contato.html" target="_blank" rel="noopener noreferrer">Contato</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/services/email.html" target="_blank" rel="noopener noreferrer">Email</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/services/mapa.html" target="_blank" rel="noopener noreferrer">Mapa</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/services/youtube.html" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-  <li><a href="https://truevermelho.github.io/basico-person/utils/services/botao-media-print.html" target="_blank" rel="noopener noreferrer">Botão de Mídia/Impressão</a></li>
+  <li><a href="./utils/services/botao/" target="_blank" rel="noopener noreferrer">Botão</a></li>
+  <li><a href="./utils/services/email/" target="_blank" rel="noopener noreferrer">Email</a></li>
+  <li><a href="./utils/services/grafico/" target="_blank" rel="noopener noreferrer">Gráfico</a></li>
+  <li><a href="./utils/services/mapa/" target="_blank" rel="noopener noreferrer">Mapa</a></li>
+  <li><a href="./utils/services/card/" target="_blank" rel="noopener noreferrer">Card</a></li>
+  <li><a href="./utils/services/contato/" target="_blank" rel="noopener noreferrer">Contato</a></li>
+  <li><a href="./utils/services/youtube.html" target="_blank" rel="noopener noreferrer">Youtube</a></li>
 </ul>
