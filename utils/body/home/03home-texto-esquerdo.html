@@ -1,0 +1,120 @@
+<!--===== HOME INDUSTRIAL STYLE =====-->
+<section class="home-industrial" id="home">
+  <div class="container-home">
+    <h1 class="title">
+      Manufacture A Variety<br>
+      Of High Quality Products
+    </h1>
+
+    <p class="subtitle">
+      We produce positive results from ever-growing industrial & manufacturing estates,
+      we have established a corporate mandate to maintain strong core values.
+    </p>
+
+    <div class="home-buttons">
+      <a href="#about" class="btn-primary">About Us</a>
+      <a href="#services" class="btn-secondary">Our Services</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* ===== HOME INDUSTRIAL ===== */
+.home-industrial {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  color: #fff;
+}
+
+.container-home {
+  max-width: 700px;
+  z-index: 2;
+}
+
+/* Título principal estilo imagem */
+.home-industrial .title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 20px;
+  text-shadow: 0 3px 12px rgba(0,0,0,0.4);
+}
+
+/* Subtítulo */
+.home-industrial .subtitle {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 550px;
+  margin-bottom: 35px;
+  color: #eee;
+}
+
+/* Botões */
+.home-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+/*** Botão laranja (principal) ***/
+.btn-primary {
+  background: #ff6a00;
+  padding: 14px 35px;
+  border-radius: 30px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #e65c00;
+  transform: scale(1.05);
+}
+
+/*** Botão transparente (secundário) ***/
+.btn-secondary {
+  padding: 14px 35px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  backdrop-filter: blur(3px);
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.1);
+  transform: scale(1.05);
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+  .home-industrial {
+    height: auto;
+    padding: 120px 5% 80px;
+  }
+
+  .title {
+    font-size: 2.3rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .home-buttons a {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+</style>
