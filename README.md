@@ -1,7 +1,14 @@
+<a style="width: 100%;">
+  <img src="./bs-person/img/componente-util.png" alt="image-componente" />
+</a>
+
 # 🌐 Acesse o Portfólio e Componentes
 
-### 🔹 Site principal
-<p><a href="https://truevermelho.github.io/basico-person/bs-person/index.html" target="_blank" rel="noopener noreferrer">Acessar o portfólio completo</a></p>
+## 🔹 Site principal
+<p><a href="https://truevermelho.github.io/basico-person/bs-person/index.html" target="_blank" rel="noopener noreferrer">Acessar o portfólio completo.</a></p>
+
+## 🔹 Componentes de utils
+<p><a href="https://truevermelho.github.io/basico-person/index.html" target="_blank" rel="noopener noreferrer">Acessar os componentes completo.</a></p>
 
 ### 🔹 Estrutura das páginas principais
 <pre><code>
