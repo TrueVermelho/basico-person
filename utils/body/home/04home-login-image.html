@@ -1,0 +1,182 @@
+<section class="hero">
+  <div class="hero-content">
+    <h1>
+      WE WILL <span>DELIVER</span> YOUR PACKAGE ALL OVER
+      <span>THE WORLD.</span>
+    </h1>
+
+    <p class="subtitle">
+      The Faster, easiest way to book and manage your international shipments.
+    </p>
+
+    <a href="#" class="btn-learn">LEARN MORE →</a>
+
+    <div class="login-box">
+      <h3>Login</h3>
+      <form>
+        <input type="email" placeholder="Enter your email" required />
+        <input type="password" placeholder="Enter your password" required />
+        <button type="submit">Login Now</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="/mnt/data/6144fb8a-3af9-49f6-8d5a-05abd1e6a1a1.png" alt="Delivery truck" />
+  </div>
+</section>
+
+<style>
+  body {
+    background: #0d0d0d;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 40px;
+  }
+
+  .hero-content {
+    max-width: 50%;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.2;
+  }
+
+  h1 span {
+    color: #ff6a00;
+  }
+
+  .subtitle {
+    margin: 20px 0;
+    opacity: 0.8;
+    max-width: 350px;
+  }
+
+  .btn-learn {
+    display: inline-block;
+    background: #ff6a00;
+    padding: 14px 34px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+
+  .login-box {
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 20px;
+    width: 330px;
+  }
+
+  .login-box h3 {
+    margin-bottom: 20px;
+  }
+
+  .login-box input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    background: #262626;
+    color: #fff;
+  }
+
+  .login-box button {
+    width: 100%;
+    background: #ff6a00;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .hero-image img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  /* -------------------- RESPONSIVIDADE -------------------- */
+
+  @media (max-width: 1100px) {
+    .hero {
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .login-box {
+      width: 100%;
+      max-width: 320px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hero-content {
+      max-width: 100%;
+    }
+
+    .btn-learn {
+      margin: 20px auto 40px;
+    }
+
+    .login-box {
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .hero {
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+
+    .subtitle {
+      max-width: 100%;
+    }
+
+    .hero-image img {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 28px;
+    }
+
+    .login-box {
+      padding: 20px;
+    }
+
+    .login-box input,
+    .login-box button {
+      padding: 12px;
+    }
+  }
+</style>
