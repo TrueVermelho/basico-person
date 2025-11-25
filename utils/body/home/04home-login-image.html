@@ -1,5 +1,6 @@
-<section class="hero">
-  <div class="hero-content">
+<!--=========== HOME PRINCIPAL ==========-->
+<section class="home background-home">
+  <div class="home-content">
     <h1>
       WE WILL <span>DELIVER</span> YOUR PACKAGE ALL OVER
       <span>THE WORLD.</span>
@@ -9,9 +10,9 @@
       The Faster, easiest way to book and manage your international shipments.
     </p>
 
-    <a href="#" class="btn-learn">LEARN MORE →</a>
+    <a href="#contato" class="botao-home">LEARN MORE →</a>
 
-    <div class="login-box">
+    <div class="login-home">
       <h3>Login</h3>
       <form>
         <input type="email" placeholder="Enter your email" required />
@@ -21,13 +22,13 @@
     </div>
   </div>
 
-  <div class="hero-image">
+  <div class="home-image">
     <img src="/mnt/data/6144fb8a-3af9-49f6-8d5a-05abd1e6a1a1.png" alt="Delivery truck" />
   </div>
 </section>
 
 <style>
-  body {
+  .background-home {
     background: #0d0d0d;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -35,7 +36,7 @@
     color: #fff;
   }
 
-  .hero {
+  .home {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,7 +44,7 @@
     gap: 40px;
   }
 
-  .hero-content {
+  .home-content {
     max-width: 50%;
   }
 
@@ -63,7 +64,7 @@
     max-width: 350px;
   }
 
-  .btn-learn {
+  .botao-home {
     display: inline-block;
     background: #ff6a00;
     padding: 14px 34px;
@@ -74,19 +75,19 @@
     font-weight: bold;
   }
 
-  .login-box {
+  .login-home {
     background: #1a1a1a;
     padding: 30px;
     border-radius: 20px;
     width: 330px;
   }
 
-  .login-box h3 {
+  .login-home h3 {
     margin-bottom: 20px;
   }
 
-  .login-box input {
-    width: 100%;
+  .login-home input {
+    width: 92%;
     padding: 14px;
     border-radius: 10px;
     border: none;
@@ -95,7 +96,7 @@
     color: #fff;
   }
 
-  .login-box button {
+  .login-home button {
     width: 100%;
     background: #ff6a00;
     padding: 14px;
@@ -105,7 +106,7 @@
     cursor: pointer;
   }
 
-  .hero-image img {
+  .home-image img {
     width: 500px;
     max-width: 100%;
     border-radius: 12px;
@@ -114,7 +115,7 @@
   /* -------------------- RESPONSIVIDADE -------------------- */
 
   @media (max-width: 1100px) {
-    .hero {
+    .home {
       padding: 50px;
     }
 
@@ -122,33 +123,33 @@
       font-size: 40px;
     }
 
-    .login-box {
+    .login-home {
       width: 100%;
       max-width: 320px;
     }
   }
 
   @media (max-width: 900px) {
-    .hero {
+    .home {
       flex-direction: column;
       text-align: center;
     }
 
-    .hero-content {
+    .home-content {
       max-width: 100%;
     }
 
-    .btn-learn {
+    .botao-home {
       margin: 20px auto 40px;
     }
 
-    .login-box {
+    .login-home {
       margin: 0 auto;
     }
   }
 
   @media (max-width: 600px) {
-    .hero {
+    .home {
       padding: 30px;
     }
 
@@ -160,7 +161,7 @@
       max-width: 100%;
     }
 
-    .hero-image img {
+    .home-image img {
       width: 100%;
     }
   }
@@ -170,12 +171,12 @@
       font-size: 28px;
     }
 
-    .login-box {
+    .login-home {
       padding: 20px;
     }
 
-    .login-box input,
-    .login-box button {
+    .login-home input,
+    .login-home button {
       padding: 12px;
     }
   }
